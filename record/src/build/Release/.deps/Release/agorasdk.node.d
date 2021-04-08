@@ -1,0 +1,1 @@
+cmd_Release/agorasdk.node := ln -f "Release/obj.target/agorasdk.node" "Release/agorasdk.node" 2>/dev/null || (rm -rf "Release/agorasdk.node" && cp -af "Release/obj.target/agorasdk.node" "Release/agorasdk.node")
